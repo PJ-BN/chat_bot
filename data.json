@@ -1,44 +1,50 @@
 {
     "intends": [{
-            "tag": "greating",
+            "tag": ["greating"],
             "question": ["hello", "what's up", "hey"],
             "answer": ["Hi!"]
         },
 
         {
-            "tag": "name",
+            "tag": ["name"],
             "question": ["what is your name", "nam k ho", "ko ho", "ko hos", "who are you"],
             "answer": ["My name is Prajwal Bhandari"]
         },
 
         {
-            "tag": "health",
+            "tag": ["health"],
             "question": ["how are you", "sanchai xau", "sanchai", "thikai"],
             "answer": ["Yes I'm fine!"]
         },
 
         {
-            "tag": "situation",
+            "tag": ["situation"],
             "question": ["k xa", "are you okay", "how do you do", "are you good", "how is your study going on", "padai kasto xa tw"],
             "answer": ["Thikai!"]
         },
 
         {
-            "tag": "address",
+            "tag": ["address"],
             "question": ["where do you live", "ka basxau", "ghar kaha ho", "ghar"],
             "answer": ["I live in Tilottama, Nepal"]
         },
 
         {
-            "tag": "college",
+            "tag": ["college"],
             "question": ["where do you study", "college", "ka padxas", "padxas"],
             "answer": ["Nepathya College affiliated to Tribhuvan University"]
         },
 
         {
-            "tag": "education",
+            "tag": ["education"],
             "question": ["what do you study", "k padxau"],
             "answer": ["Bachelor in Computer Application(BCA)"]
+        },
+
+        {
+            "tag": ["goodbye"],
+            "question": ["bye", "goodbye", "tata", "paxi bhetamla", "see you later", "take care"],
+            "answer": ["Bye!!"]
         }
 
     ]
