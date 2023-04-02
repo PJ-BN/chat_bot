@@ -1,51 +1,58 @@
 {
     "intends": [{
             "tag": ["greating"],
-            "question": ["hello", "what's up", "hey"],
+            "question": ["hello", "what's up", "hey", "hi", "hey there"],
             "answer": ["Hi!"]
         },
 
         {
             "tag": ["name"],
-            "question": ["what is your name", "nam k ho", "ko ho", "ko hos", "who are you"],
+            "question": ["what is your name", "introduce", "introduce yourself", "who", "name", "who are you"],
             "answer": ["My name is Prajwal Bhandari"]
         },
 
         {
             "tag": ["health"],
-            "question": ["how are you", "sanchai xau", "sanchai", "thikai"],
+            "question": ["how are you", "fine", "how is your health", "health"],
             "answer": ["Yes I'm fine!"]
         },
 
         {
             "tag": ["situation"],
-            "question": ["k xa", "are you okay", "how do you do", "are you good", "how is your study going on", "padai kasto xa tw"],
+            "question": ["how is it going", "are you okay", "how do you do", "are you good", "how is your study going on"],
             "answer": ["Thikai!"]
         },
 
         {
             "tag": ["address"],
-            "question": ["where do you live", "ka basxau", "ghar kaha ho", "ghar"],
+            "question": ["where do you live", "home", "where is your home", "what is your address", "address"],
             "answer": ["I live in Tilottama, Nepal"]
         },
 
         {
             "tag": ["college"],
-            "question": ["where do you study", "college", "ka padxas", "padxas"],
+            "question": ["where do you study", "college", "which university do you study", "university"],
             "answer": ["Nepathya College affiliated to Tribhuvan University"]
         },
 
         {
             "tag": ["education"],
-            "question": ["what do you study", "k padxau"],
+            "question": ["what do you study", "subject", "what is your major"],
             "answer": ["Bachelor in Computer Application(BCA)"]
         },
 
         {
             "tag": ["goodbye"],
-            "question": ["bye", "goodbye", "tata", "paxi bhetamla", "see you later", "take care"],
+            "question": ["bye", "goodbye", "later", "see you next time", "see you later", "take care"],
             "answer": ["Bye!!"]
+        },
+
+        {
+            "tag": ["location"],
+            "question": ["your current location", "where", "location", "where are you"],
+            "answer": ["Ghar"]
         }
+
 
     ]
 }
