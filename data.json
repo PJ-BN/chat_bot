@@ -1,19 +1,19 @@
 {
     "intends": [{
-            "tag": ["greating"],
-            "question": ["hello", "what's up", "hey", "hi", "hey there"],
+            "tag": ["greeting"],
+            "question": ["hello", "what's up", "hey", "hi", "hey there", "greeting"],
             "answer": ["Hi!"]
         },
 
         {
             "tag": ["name"],
-            "question": ["what is your name", "introduce", "introduce yourself", "who", "name", "who are you"],
+            "question": ["what is your name", "introduce", "introduce yourself", "who", "name", "who are you", "may i have your name", "would you mind telling me your name", "how can i call you"],
             "answer": ["My name is Prajwal Bhandari"]
         },
 
         {
             "tag": ["health"],
-            "question": ["how are you", "fine", "how is your health", "health"],
+            "question": ["how are you", "fine", "how is your health", "health", "how are you feeling", "how are you doing now", "how is yours health been", "is everything okay about your health"],
             "answer": ["Yes I'm fine!"]
         },
 
@@ -25,7 +25,7 @@
 
         {
             "tag": ["address"],
-            "question": ["where do you live", "home", "where is your home", "what is your address", "address"],
+            "question": ["where do you live", "home", "where is your home", "what is your address", "address", "could you please give me your address", "can you tell me your address", "may i have your address"],
             "answer": ["I live in Tilottama, Nepal"]
         },
 
@@ -37,22 +37,22 @@
 
         {
             "tag": ["education"],
-            "question": ["what do you study", "subject", "what is your major"],
+            "question": ["what do you study", "subject", "what is your major", "what field did you specialize during your education", "what is your educational background"],
             "answer": ["Bachelor in Computer Application(BCA)"]
         },
+
+
+        {
+            "tag": ["location"],
+            "question": ["your current location", "where", "location", "where are you", "where are you located", "can you tell where you are currently based on", "may i ask you where you are texting from"],
+            "answer": ["Ghar"]
+        },
+
 
         {
             "tag": ["goodbye"],
             "question": ["bye", "goodbye", "later", "see you next time", "see you later", "take care"],
             "answer": ["Bye!!"]
-        },
-
-        {
-            "tag": ["location"],
-            "question": ["your current location", "where", "location", "where are you"],
-            "answer": ["Ghar"]
         }
-
-
     ]
 }
